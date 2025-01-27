@@ -209,17 +209,23 @@ iframe{
 
     .description{
         display: flex;
+        align-items: center;
         width: 100%;
         margin: auto; 
         img{
-            width: 60%; 
+            width: 60%;
+            height: 275px; 
         }
+
+        .card{
+            width: 40%;
+            height: 275px;
+    
+        }
+
     }
 
-    .card{
-        width: 40%;
-
-    }
+    
     .main-container{
         padding: 2rem 6rem;       
     }
