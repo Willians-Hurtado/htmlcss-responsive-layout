@@ -1,0 +1,23 @@
+:root{
+    --res-head-title: #ff9614;
+    --res-back-main: #f6f5f3;
+    --res-light: #ffffff;
+    --res-title-video: #4e3969;
+    --res-lighter-title-video: #a3a7ab;
+    --res-icon-facebook: #1a77f3;
+    --res-icon-twitter: #009eff;
+    --res-icon-instagram: #e176a9;
+    --res-icon-pinterest: #e62628;
+    --res-icon-youtube: #e62222;
+    --res-back-footer: #7c69a4;
+}
+
+.head-container{
+    font-family: 'Nerko One', cursive;
+    h1{
+        color: var(--res-head-title);
+    }
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
