@@ -202,6 +202,32 @@ iframe{
 }
 /* #endregion social */
 
+/* #region presentation */
+
+hr{
+    margin-top: 1rem;
+    width: 20%;
+    border: 1px solid var(--res-head-title);
+}
+
+.p-tiramisù{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    p{
+        padding: 1rem 0;
+        line-height: 1.6rem;
+    }
+
+    img{
+        padding-top: 1rem;
+        width: 60%;
+        
+    }
+}
+
+/* #endregion presentation */
 
 
 
