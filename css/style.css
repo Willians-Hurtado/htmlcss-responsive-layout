@@ -167,9 +167,17 @@ iframe{
     button{
         background-color: var(--res-light);
         padding: 0.5rem 0.7rem;
-        border-radius: 50%;
+        border-radius: 50px;
         border: none;
         box-shadow: 1px 3px 10px var(--res-lighter-title-video);
+    }
+
+    div{
+        display: none;
+    }
+
+    img{
+        display: none;
     }
 }
 
@@ -230,6 +238,24 @@ iframe{
         width: calc(100%/12*4);
         padding: 1rem 0.5rem;
     }
+
+    .social{
+        display: flex;
+        flex-wrap: wrap;
+
+        img{
+            display: inline-block;
+            padding: 1.5rem 0;
+        }
+
+        button{
+            background-color: var(--res-light);
+            padding: 0.5rem 3.1rem;
+            border-radius: 50px;
+            border: none;
+            box-shadow: 1px 3px 10px var(--res-lighter-title-video);
+        }
+    }
 }
 
 
@@ -267,4 +293,18 @@ iframe{
     .main-container{
         padding: 2rem 6rem;       
     }
+    .social{
+
+        button{
+            padding: 0.5rem 2rem;
+            border-radius: 50px;
+            border: none;
+            box-shadow: 1px 3px 10px var(--res-lighter-title-video);
+        }
+
+       div{
+        display: inline-block;
+        } 
+    }
+    
 }
