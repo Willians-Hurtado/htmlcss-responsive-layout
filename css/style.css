@@ -134,6 +134,19 @@ img{
     color: var(--res-lighter-title-video);
 }
 
+.description {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} 
 
 .title-video{
     padding: 0.4rem 0;
@@ -154,9 +167,7 @@ img{
     }  
 }
 
-iframe{
-    width: 100%;
-}
+
 /* #endregion tiramisu video */
 
 /* #region social */
