@@ -129,7 +129,7 @@ img{
     
 }
 
-/* tiramisu video */
+/* #region tiramisu video */
 .subject-video{
     color: var(--res-lighter-title-video);
 }
@@ -157,6 +157,44 @@ img{
 iframe{
     width: 100%;
 }
+/* #endregion tiramisu video */
+
+/* #region social */
+.social{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    button{
+        background-color: var(--res-light);
+        padding: 0.5rem 0.7rem;
+        border-radius: 50%;
+        border: none;
+        box-shadow: 1px 3px 10px var(--res-lighter-title-video);
+    }
+}
+
+.fa-facebook{
+    color: var(--res-icon-facebook);
+}
+
+.fa-twitter{
+    color: var(--res-icon-twitter);
+}
+
+.fa-instagram{
+    color: var(--res-icon-instagram);
+}
+
+.fa-pinterest{
+    color: var(--res-icon-pinterest);
+}
+
+.fa-youtube{
+    color: var(--res-icon-youtube);
+}
+/* #endregion social */
+
+
 
 
 
