@@ -126,6 +126,7 @@ img{
 .main-container{
     background-color: var(--res-back-main);
     padding: 1rem 1rem;
+    
 }
 
 /* tiramisu video */
@@ -136,6 +137,7 @@ img{
 
 .title-video{
     padding: 0.4rem 0;
+    padding-bottom: 1rem;
     color: var(--res-title-video);
     span{
         color: transparent;
@@ -144,7 +146,7 @@ img{
 
 .card{
     margin-top: -0.3rem;
-    padding: 2rem 1rem;
+    padding: 2rem 1.5rem;
     background-color: var(--res-light);
     box-shadow: 3px 2px 10px var(--res-lighter-title-video);
     h3{
@@ -166,10 +168,59 @@ iframe{
 
 /* #region responsive */
 @media screen and (min-width: 768px){
+    .main-container{
+        padding: 2rem 3rem;       
+    }
+    
     .head-container{
         width: 100%;
         display: flex;
         justify-content: flex-start;
         padding-left: 1rem;
+        
+    }
+
+    .title-video{
+        font-size: 2.4rem;
+
+        span{
+            color: var(--res-title-video);
+        }
+    }
+
+    .col-12{
+        width: calc(100%/12*4);
+        padding: 1rem 0.5rem;
+    }
+}
+
+
+@media screen and (min-width: 992px){
+    .title-video{
+        span{
+            color: var(--res-title-video);
+        }
+    }
+
+    .col-12{
+        width: calc(100%/12*12);
+        padding: 0.5rem;
+    }
+
+    .description{
+        display: flex;
+        width: 100%;
+        margin: auto; 
+        img{
+            width: 60%; 
+        }
+    }
+
+    .card{
+        width: 40%;
+
+    }
+    .main-container{
+        padding: 2rem 6rem;       
     }
 }
