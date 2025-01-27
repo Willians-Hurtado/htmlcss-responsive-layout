@@ -12,6 +12,13 @@
     --res-back-footer: #7c69a4;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #region header */
 .head-container{
     font-family: 'Nerko One', cursive;
     h1{
@@ -20,4 +27,18 @@
     width: 80%;
     margin: auto;
     text-align: center;
+    padding: 1rem 0;
+}
+/* #endregion header */
+
+
+
+/* #region responsive */
+@media screen and (min-width: 768px){
+    .head-container{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 1rem;
+    }
 }
